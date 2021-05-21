@@ -1,0 +1,20 @@
+ls => to list all directories and folders
+ls -al => formatted directories and folders listing with hidden files
+cd dir => change directory to dir
+cd .. => go to one level up
+pwd => path to print working directory
+mkdir => create directory dir
+touch file => create file
+rm file_name => delete file_name
+rm -r -f dir => delete directory dir (r-> recursively, f-> force)
+cp file1 file2 => copy file1 to file2
+mv file1 file2 => rename file 1 to file2 (if both files in the same folder)
+mv file1 ../ => move file1 to one level up in parent directory
+cat file => print content of the file
+head file => output first 10 line of the file
+tail file => output last 10 lines of the file
+date => show current date/time
+ps => display current active processes
+kill pid => kill process with pid 'pid'
+chmod => to change permission to the file (read 4, write 2, execute 1), (owner, group, world)
+    chmod 777 - rwx for everyone
